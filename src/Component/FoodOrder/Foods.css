@@ -1,0 +1,33 @@
+.food{
+    margin-top: 50px;
+    text-align: center;
+}
+.all-food{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+   margin-top: 80px;
+   margin-left: 5%;
+    
+}
+.single-food{
+    width: 70%;
+    text-align: center;
+    transition: .5s;
+}
+.single-food img{
+    width: 60%;
+}
+.food-btn{
+    width: 130px;
+    height: 35px;
+    outline-style: none;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.single-food:hover{
+    box-shadow: 2px 2px 10px gray;
+    transform: scale(1.01);
+    border-radius: 5px;
+}

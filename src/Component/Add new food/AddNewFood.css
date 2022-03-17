@@ -1,0 +1,24 @@
+.addFood{
+    margin-top: 100px;
+}
+.addFood h1{
+    color: #385A64;
+}
+.addFood form,h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.addFood form input,textarea{
+    width: 30%;
+    margin: 10px;
+    height: 45px;
+    outline-style: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 16px;
+}
+ form input:focus
+{
+    border: 2px solid lightblue;
+}

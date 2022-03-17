@@ -1,0 +1,11 @@
+.header-pic-size{
+    height: 50px !important;
+}
+.custom{
+    font-size: 18px;
+    padding: 5px;
+    text-decoration: none;
+}
+.activeStyle{
+    color: darkblue;
+}

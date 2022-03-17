@@ -1,0 +1,31 @@
+.home-page{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 100px;
+}
+.home-text{
+    margin-top: 60px;
+    width: 70%;
+    margin-left: 80px;
+}
+.home-text h1{
+    font-size: 50px;
+    color: #385A64;
+}
+.home-text p{
+    font-size: 20px;
+}
+.home-image img{
+    width: 70%;
+}
+.home-btn{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #FF735C;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
